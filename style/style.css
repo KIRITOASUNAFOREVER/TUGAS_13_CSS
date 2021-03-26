@@ -1,0 +1,30 @@
+.container{
+    width: 800px;
+    margin: 0 auto;
+  }
+  .satu{
+    width: 200px;
+    height: 200px;
+    background-color: #39b54a;
+    margin-top: 50px;
+    border: solid;
+    border-image-source: url("../gambar/hearts.png");
+    border-image-slice: 20 22;
+    border-image-width: 20px;
+    border-image-outset: 20px;
+    border-image-repeat: round;
+    box-shadow: 30px 30px;
+  }
+  .dua{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin-top: 50px;
+    border: solid;
+    border-image-source: url("../gambar/border1.png");
+    border-image-width: 26px;
+    border-image-slice: 33%;
+    border-image-repeat: round;
+    border-image-outset: 18px;
+    box-shadow: 5px 3px 10px;
+  }
